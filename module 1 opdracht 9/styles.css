@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: gray;
+    position: fixed;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    border-top: 0px solid black;
+}
+
+nav li {
+    float: left;
+    padding: 0px;
+}
+
+li a {
+    display: block;
+    padding: 20px;
+    color: blue
+}
+
+li a:hover {
+    background-color: honeydew;
+    color: black;
+}
+
+.active {
+    background-color: rosybrown
+}
+
+
+
+h2 {
+    border: 5px solid grey;
+    color: grey;
+    background-color: lightgray;
+    padding: 25px;
+    margin-top: 35px;
+    text-align: center;
+    }
+
+h3 {
+    margin-left: 10px;
+}    
+
+p {
+    font: 20px "lucida console", courier, monospace;
+    line-height: 20px;
+    margin: 0px 5px 5px 5px;
+    
+ }
+ main a {
+     background-color: salmon;
+     color: rgb(53, 19, 19);
+     font: 15px arial, helvetica, sans-serif;
+     margin: 10px;
+     
+     
+     
+ }
+.para {
+    border: 2px solid crimson;
+    padding: 10px;
+}
+.para2 {
+    color: darkred;
+}
+
+.odin {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+
+.blogs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+.blogs div { 
+    width: 300px; 
+    border: 1px solid black; 
+}
+
+.blogpost-1 {
+    flex:1; 
+
+}
+
+.blogpost-2 {
+    flex:2;
+    
+}
+
+.blogpost-3 {
+    flex:1;
+}
+
+.blogpost-4 {
+    flex:2;
+}
+
+.blogpost-5 {
+    flex:1;
+}
+
+
+@media (min-width: 1024px) {
+ body {
+     background-color: rosybrown;
+ }
+ p {
+     font-size: 12px;
+}
+
+ main ul {
+     color: pink
+ }
+ main ul li {
+     line-height: 2em;
+ }
+
+}
+
+
+
+
+
+
+
